@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institutional Evaluation System</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>College Evaluation System</h1>
+        <p>Your feedback helps us improve our educational environment!</p>
+    </header>
+    <main class="evaluation-container">
+        <form id="evaluation-form">
+            <h2>Course Evaluation</h2>
+            <label for="course">Course Name:</label>
+            <input type="text" id="course" name="course" required placeholder="Enter course name">
+
+            <label for="instructor">Instructor Name:</label>
+            <input type="text" id="instructor" name="instructor" required placeholder="Enter instructor's name">
+
+            <label for="rating">Overall Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Share your thoughts here..." required></textarea>
+            <button type="submit">Submit Evaluation</button>
+        </form>
+        <div id="feedback-message"></div>
+
+        <h3>Your Previous Evaluations</h3>
+        <ul id="evaluation-list"></ul>
+    </main>
+    <footer>
+        <p>© 2024 College Evaluation System. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
