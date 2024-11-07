@@ -35,8 +35,8 @@ The College Evaluation System allows students to submit feedback on course conte
 To download the project, clone it from GitHub:
 
 ```bash
-git clone https://github.com/Azzy2101/evaluation-system.git
-cd evaluation-system
+git clone https://github.com/Azzy2101/evaluation-system-html.git
+cd evaluation-system-html
 ```
 
 ### 3. Install Dependencies
